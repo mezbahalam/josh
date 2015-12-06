@@ -22,11 +22,11 @@
 .easily{  position: relative;  margin-left: 30%;  margin-top: 40px;  }
 .emergency{  width: 55px;  height:55px;  position: relative;  margin-left: 30%;  margin-top: 20px;  }
 
-.imageborder{  -webkit-box-shadow: 6px 8px 18px 0px rgba(0,0,0,0.75);  -moz-box-shadow: 6px 8px 18px 0px rgba(0,0,0,0.75);  box-shadow: 6px 8px 18px 0px rgba(0,0,0,0.75);  }
+.imageborder{  -webkit-box-shadow: 2px 8px 8px 0px rgba(0,0,0,0.75);  -moz-box-shadow: 2px 8px 8px 0px rgba(0,0,0,0.75);  box-shadow: 2px 8px 8px 0px rgba(0,0,0,0.75);  }
 .imgsize{  width: 50px;  height:50px;  }
 .imgsize-big {  width: 100px;  height: 100px; }
 .imgsize-observe {  width: 90px;  height: 90px; }
-.imgsize-measurement {  width: 120px;  height: 80px; }
+.imgsize-measurement {  width: 100px;  height: 80px; }
 .imgsize-self {  width: 70px;  height: 70px; }
 
 .imagepluscontainer{  position: relative;  z-index: 1;  }
