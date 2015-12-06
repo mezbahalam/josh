@@ -1,472 +1,113 @@
 
-.borderright{
-    float: right;
-    width: 70%;
-}
+.b-part1{  margin-left: 2%;  border-radius: 98px 0px 95px 0px;  -moz-border-radius: 98px 0px 95px 0px;  -webkit-border-radius: 98px 0px 95px 0px;  border: 1px solid #000000;  -webkit-box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);  -moz-box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);  box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);  }
+.b-part2{ margin-top: 1%;  margin-left:39%;  margin-right:43%;  height: 350px;  }
+.b-part3{  margin-right: 7%;  border-radius: 0px 90px 0px 94px;  -moz-border-radius: 0px 90px 0px 94px;  -webkit-border-radius: 0px 90px 0px 94px;  border: 1px solid #000000;  -webkit-box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);  -moz-box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);  box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);  }
+.benifit{  float: left;  width: 23%;  min-height:150px;  margin-left: 3%;  }
+.borderright{  float: right;  width: 70%;  }
+.button {  width: 90%;  display: inline-block;  padding: 1em;  background-color: darkgray;  text-decoration: none;  text-align: center;  color: black;  }
+.button-name{  float: right;  margin-right: 5%;  width: 45%;  display: inline-block;  padding: .5em;  background-color:  #e1e1e1;  text-decoration: none;  text-align: center;  }
+.button-patient{  float: right;  margin-top: -55px;  margin-right: 13%;  width: 30%;  display: inline-block;  padding: .5em;  background-color:  #e1e1e1;  text-decoration: none;  text-align: center;  }
+.button-clinician {  position: relative;  margin-top: 50px;  margin-left: 20%;  width: 35%;  display: inline-block;  padding: .5em;  background-color:  #e1e1e1;  text-decoration: none;  text-align: center;  }
 
 
-.imageborder{
-    -webkit-box-shadow: 6px 15px 39px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 15px 39px 0px rgba(0,0,0,0.75);
-    box-shadow: 6px 15px 39px 0px rgba(0,0,0,0.75);
-}
+.clinician{  float: left;  width: 100px;  height:100px;  position: relative;  margin-left: 15%;  margin-top: -75px;  }
+.communication{  width: 100px;  height:100px;  position: relative;  margin-left: 15%;  margin-top: 1px;  }
 
 
+.downarrow{  width: 20px;  height:70px;  position: relative;  margin-left: 37%;  margin-top: 5px;  }
 
-.benifit{
-    float: left;
-    width: 23%;
-    min-height:150px;
-    margin-left: 3%;
-}
 
+.easily{  position: relative;  margin-left: 30%;  margin-top: 40px;  }
+.emergency{  width: 55px;  height:55px;  position: relative;  margin-left: 30%;  margin-top: 20px;  }
 
+.imageborder{  -webkit-box-shadow: 6px 15px 39px 0px rgba(0,0,0,0.75);  -moz-box-shadow: 6px 15px 39px 0px rgba(0,0,0,0.75);  box-shadow: 6px 15px 39px 0px rgba(0,0,0,0.75);  }
+.imgsize{  width: 50px;  height:50px;  }
 
+.imagepluscontainer{  position: relative;  z-index: 1;  }
+.imagepluscontainer img{  position: relative;  z-index: 2;  -moz-transition: all 0.5s ease; /* Enable CSS3 transition on all props */  -webkit-transition: all 0.5s ease-in-out;  -o-transition: all 0.5s ease-in-out;  -ms-transition: all 0.5s ease-in-out;  transition: all 0.5s ease-in-out;  }
+.imagepluscontainer:hover img{  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);  -moz-transform: scale(1.05, 1.05);  -webkit-transform: scale(1.05, 1.05);  -ms-transform: scale(1.05, 1.05);  -o-transform: scale(1.05, 1.05);  transform: scale(1.05, 1.05);  }
+.imagepluscontainer div.desc{  position: absolute;  width: 110%;  z-index: 1;  bottom: 0;  left: 5px;  padding: 8px;  background: rgba(0, 0, 0, 0.8);  color: white;  -moz-border-radius: 0 0 8px 8px;  -webkit-border-radius: 0 0 8px 8px;  border-radius: 0 0 8px 8px;  opacity: 0;  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);  box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);  -moz-transition: all 0.5s ease 0.5s;  -webkit-transition: all 0.5s ease 0.5s;  -o-transition: all 0.5s ease 0.5s;  -ms-transition: all 0.5s ease 0.5s;  transition: all 0.5s ease 0.5s;  }
+.imagepluscontainer div.desc a{  color: white;  }
+.imagepluscontainer:hover div.desc{  -moz-transform: translate(0, 100%);  -webkit-transform: translate(0, 100%);  -ms-transform: translate(0, 100%);  -o-transform: translate(0, 100%);  transform: translate(0, 100%);  opacity:1;  }
+.imagepluscontainer div.rightslide{  width: 160px;  top:15px;  right:0;  left:auto;  bottom:auto;  padding-left:15px;  -moz-border-radius: 0 8px 8px 0;  -webkit-border-radius: 0 8px 8px 0;  border-radius: 0 8px 8px 0;  }
+.imagepluscontainer:hover div.rightslide{  -moz-transform: translate(100%, 0);  -webkit-transform: translate(100%, 0);  -ms-transform: translate(100%, 0);  -o-transform: translate(100%, 0);  transform: translate(100%, 0);  }
+.imagepluscontainer div.leftslide{  width: 160px;  top:15px;  left:0;  bottom:auto;  padding-left:15px;  -moz-border-radius: 8px 0 0 8px;  -webkit-border-radius: 8px 0 0 8px;  border-radius: 8px 0 0 8px;  }
+.imagepluscontainer:hover div.leftslide{  -moz-transform: translate(-100%, 0);  -webkit-transform: translate(-100%, 0);  -ms-transform: translate(-100%, 0);  -o-transform: translate(-100%, 0);  transform:translate(-100%, 0);  }
+.imagepluscontainer div.upslide{  top:0;  bottom:auto;  padding-bottom:10px;  -moz-border-radius: 8px 8px 0 0;  -webkit-border-radius: 8px 8px 0 0;  border-radius: 8px 8px 0 0;  }
+.imagepluscontainer:hover div.upslide{  -moz-transform: translate(0, -100%);  -webkit-transform: translate(0, -100%);  -ms-transform: translate(0, -100%);  -o-transform: translate(0, -100%);  transform:translate(0, -100%);  }
 
 
-.b-part1{
-    margin-left: 2%;
-    border-radius: 98px 0px 95px 0px;
-    -moz-border-radius: 98px 0px 95px 0px;
-    -webkit-border-radius: 98px 0px 95px 0px;
-    border: 1px solid #000000;
-    -webkit-box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);
-    box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);
+.journal{  position: relative;  margin-left: 20%;  margin-top: 5px;  }
 
-}
 
+.leftdiv{  margin-top: 10%;  float: left;  width: 36%;  height: 350px;  }
 
 
-.easily{
-    position: relative;
-    margin-left: 30%;
-    margin-top: 40px;
-}
+.medication{  position: relative;  margin-left: 15%;  margin-top: 35px;  }
+.measurement{  width: 120px;  height:120px;  position: relative;  margin-left: 7%;  margin-top: 5px;  }
+.medication2{  float: right;  width: 50px;  height:50px;  position: relative;  margin-right: 27%;  margin-top: 45px;  }
 
-.emergency{
-    width: 55px;
-    height:55px;
-    position: relative;
-    margin-left: 30%;
-    margin-top: 20px;
-}
 
-.journal{
-    position: relative;
-    margin-left: 20%;
-    margin-top: 5px;
-}
+.observe{  margin-top: 50px;  width: 90px;  height:90px;  position: relative;  margin-left: 33%;  }
+.observe-part2{  margin-left: 32%;  margin-right: 37%;  height: 150px;  border-radius: 33px 33px 33px 33px;  -moz-border-radius: 33px 33px 33px 33px;  -webkit-border-radius: 33px 33px 33px 33px;  border: 2px dotted #000000;  }
 
-.leftdiv{
-    margin-top: 10%;
-    float: left;
-    width: 36%;
-    height: 350px;
-}
 
-.medication{
-    position: relative;
-    margin-left: 15%;
-    margin-top: 35px;
-}
+.patient{  width: 100px;  height:100px;  position: relative;  margin-left: 45%;  margin-top: -170px;  }
 
+p#socialicons img{  -moz-transition: all 0.8s ease-in-out;  -webkit-transition: all 0.8s ease-in-out;  -o-transition: all 0.8s ease-in-out;  -ms-transition: all 0.8s ease-in-out;  transition: all 0.8s ease-in-out;  }
+p#socialicons img:hover{  -moz-transform: rotate(360deg);  -webkit-transform: rotate(360deg);  -o-transform: rotate(360deg);  -ms-transform: rotate(360deg);  transform: rotate(360deg);  }
+p#socialicons2 img{  -moz-transition: all 0.2s ease-in-out;  -webkit-transition: all 0.2s ease-in-out;  -o-transition: all 0.2s ease-in-out;  -ms-transition: all 0.2s ease-in-out;  transition: all 0.2s ease-in-out;  }
+p#socialicons2 img:hover{  -moz-transform: rotate(70deg);  -webkit-transform: rotate(70deg);  -o-transform: rotate(70deg);  -ms-transform: rotate(70deg);  transform: rotate(70deg);  }
+p#socialicons3 img:hover{  -moz-transition: all 0.5s ease-in-out;  -webkit-transition: all 0.5s ease-in-out;  -o-transition: all 0.5s ease-in-out;  -ms-transition: all 0.5s ease-in-out;  transition: all 0.5s ease-in-out;  -moz-transform: rotate(-360deg);  -webkit-transform: rotate(-360deg);  -o-transform: rotate(-360deg);  -ms-transform: rotate(-360deg);  transform: rotate(-360deg);  }
 
 
-.patient{
-    width: 100px;
-    height:100px;
-    position: relative;
-    margin-left: 45%;
-    margin-top: -170px;
-}
+.realbenefit{  margin-top: 1%;  margin-left: 20%;  width: 45%;  color: white;  border-radius: 7px 7px 7px 7px;  -moz-border-radius: 7px 7px 7px 7px;  -webkit-border-radius: 7px 7px 7px 7px;  background-color: #337ab7;  }
+.rightdiv{  margin-top: 10%;  float: right;  width: 35%;  height: 350px;  }
 
 
+.selfdocument{ width: 70px;  height:70px;  position: relative;  margin-left: 30%;  margin-top: 30px;  }
 
-.track{
-    position: relative;
-    margin-left: 20%;
-    margin-top: 20px;
-}
 
+.track{  position: relative;  margin-left: 20%;  margin-top: 20px;  }
+.twoway{  width: 50px;  height:50px;  position: relative;  margin-left: 90%;  margin-top: -220px;  }
+.twoway2{  float: right;  width: 50px;  height:50px;  position: relative;  margin-right: 90%;  margin-top: -27px;  }
 
-.twoway{
-    width: 50px;
-    height:50px;
-    position: relative;
-    margin-left: 90%;
-    margin-top: -220px;
-}
 
 
 
 
 
 
-.observe-part2{
 
-    margin-left: 32%;
-    margin-right: 37%;
-    height: 150px;
 
-    border-radius: 33px 33px 33px 33px;
-    -moz-border-radius: 33px 33px 33px 33px;
-    -webkit-border-radius: 33px 33px 33px 33px;
-    border: 2px dotted #000000;
-}
 
-.b-part2{
 
-    margin-top: 1%;
-    margin-left:39%;
-    margin-right:43%;
-    height: 350px;
-}
 
 
-.communication{
-    width: 100px;
-    height:100px;
-    position: relative;
-    margin-left: 15%;
-    margin-top: 1px;
 
-}
 
-.downarrow{
-    width: 20px;
-    height:70px;
-    position: relative;
-    margin-left: 37%;
-    margin-top: 5px;
 
-}
 
-.measurement{
-    width: 120px;
-    height:120px;
-    position: relative;
-    margin-left: 7%;
-    margin-top: 5px;
-}
 
-.observe{
-    margin-top: 50px;
-    width: 90px;
-    height:90px;
-    position: relative;
-    margin-left: 33%;
-}
 
 
 
 
 
-.b-part3{
-    margin-right: 7%;
-    border-radius: 0px 90px 0px 94px;
-    -moz-border-radius: 0px 90px 0px 94px;
-    -webkit-border-radius: 0px 90px 0px 94px;
-    border: 1px solid #000000;
 
 
-    -webkit-box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);
-    box-shadow: 2px 11px 22px 0px rgba(0,0,0,0.75);
 
-}
 
 
 
-.clinician{
-    float: left;
-    width: 100px;
-    height:100px;
-    position: absolute;
-    margin-left: 5%;
-    margin-top: 30px;
-}
-
-
-.medication2{
-    float: right;
-    width: 50px;
-    height:50px;
-    position: relative;
-    margin-right: 20%;
-    margin-top: 45px;
-}
-
-.rightdiv{
-    margin-top: 10%;
-    float: right;
-    width: 35%;
-    height: 350px;
-
-}
-
-.selfdocument{
-    width: 70px;
-    height:70px;
-    position: relative;
-    margin-left: 30%;
-    margin-top: 30px;
-}
-
-
-
-.twoway2{
-    float: right;
-    width: 50px;
-    height:50px;
-    position: relative;
-    margin-right: 90%;
-    margin-top: -27px;
-}
-
-
-
-
-
-
-.imgsize{
-    width: 50px;
-    height:50px;
-}
-
-
-.imagepluscontainer{ /* main image container */
-    position: relative;
-    z-index: 1;
-}
-
-.imagepluscontainer img{ /* CSS for image within container */
-    position: relative;
-    z-index: 2;
-    -moz-transition: all 0.5s ease; /* Enable CSS3 transition on all props */
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-.imagepluscontainer:hover img{ /* CSS for image when mouse hovers over main container */
-    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    -moz-transform: scale(1.05, 1.05);
-    -webkit-transform: scale(1.05, 1.05);
-    -ms-transform: scale(1.05, 1.05);
-    -o-transform: scale(1.05, 1.05);
-    transform: scale(1.05, 1.05);
-}
-
-.imagepluscontainer div.desc{ /* CSS for desc div of each image. */
-    position: absolute;
-    width: 110%;
-    z-index: 1; /* Set z-index to that less than image's, so it's hidden beneath it */
-    bottom: 0; /* Default position of desc div is bottom of container, setting it up to slide down */
-    left: 5px;
-    padding: 8px;
-    background: rgba(0, 0, 0, 0.8); /* black bg with 80% opacity */
-    color: white;
-    -moz-border-radius: 0 0 8px 8px; /* CSS3 rounded borders */
-    -webkit-border-radius: 0 0 8px 8px;
-    border-radius: 0 0 8px 8px;
-    opacity: 0; /* Set initial opacity to 0 */
-    -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8); /* CSS3 shadows */
-    -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
-    -moz-transition: all 0.5s ease 0.5s; /* Enable CSS3 transition on desc div. Final 0.5s value is the delay before animation starts */
-    -webkit-transition: all 0.5s ease 0.5s;
-    -o-transition: all 0.5s ease 0.5s;
-    -ms-transition: all 0.5s ease 0.5s;
-    transition: all 0.5s ease 0.5s;
-}
-
-.imagepluscontainer div.desc a{
-    color: white;
-}
-
-.imagepluscontainer:hover div.desc{ /* CSS for desc div when mouse hovers over main container */
-    -moz-transform: translate(0, 100%);
-    -webkit-transform: translate(0, 100%);
-    -ms-transform: translate(0, 100%);
-    -o-transform: translate(0, 100%);
-    transform: translate(0, 100%);
-    opacity:1; /* Reveal desc DIV fully */
-}
-
-/*### Below CSS when applied to desc DIV slides the desc div from the right edge of the image ###*/
-
-.imagepluscontainer div.rightslide{
-    width: 160px; /* reset from default */
-    top:15px;
-    right:0;
-    left:auto;  /* reset from default */
-    bottom:auto;  /* reset from default */
-    padding-left:15px;
-    -moz-border-radius: 0 8px 8px 0;
-    -webkit-border-radius: 0 8px 8px 0;
-    border-radius: 0 8px 8px 0;
-}
-
-.imagepluscontainer:hover div.rightslide{
-    -moz-transform: translate(100%, 0);
-    -webkit-transform: translate(100%, 0);
-    -ms-transform: translate(100%, 0);
-    -o-transform: translate(100%, 0);
-    transform: translate(100%, 0);
-}
-
-/*### Below CSS when applied to desc DIV slides the desc div from the left edge of the image ###*/
-
-.imagepluscontainer div.leftslide{
-    width: 160px;  /* reset from default */
-    top:15px;
-    left:0;
-    bottom:auto;  /* reset from default */
-    padding-left:15px;
-    -moz-border-radius: 8px 0 0 8px;
-    -webkit-border-radius: 8px 0 0 8px;
-    border-radius: 8px 0 0 8px;
-}
-
-.imagepluscontainer:hover div.leftslide{
-    -moz-transform: translate(-100%, 0);
-    -webkit-transform: translate(-100%, 0);
-    -ms-transform: translate(-100%, 0);
-    -o-transform: translate(-100%, 0);
-    transform:translate(-100%, 0);
-}
-
-/*### Below CSS when applied to desc DIV slides the desc div from the top edge of the image ###*/
-
-.imagepluscontainer div.upslide{
-    top:0;
-    bottom:auto;  /* reset from default */
-    padding-bottom:10px;
-    -moz-border-radius: 8px 8px 0 0;
-    -webkit-border-radius: 8px 8px 0 0;
-    border-radius: 8px 8px 0 0;
-}
-
-.imagepluscontainer:hover div.upslide{
-    -moz-transform: translate(0, -100%);
-    -webkit-transform: translate(0, -100%);
-    -ms-transform: translate(0, -100%);
-    -o-transform: translate(0, -100%);
-    transform:translate(0, -100%);
-}
-
-
-p#socialicons img{ /* 1st set of icons. Rotate them 360deg onmouseover and out */
-    -moz-transition: all 0.8s ease-in-out;
-    -webkit-transition: all 0.8s ease-in-out;
-    -o-transition: all 0.8s ease-in-out;
-    -ms-transition: all 0.8s ease-in-out;
-    transition: all 0.8s ease-in-out;
-}
-
-p#socialicons img:hover{
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
-
-p#socialicons2 img{ /* 2nd set of icons. Rotate them 60deg onmouseover and out */
-    -moz-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
-p#socialicons2 img:hover{
-    -moz-transform: rotate(70deg);
-    -webkit-transform: rotate(70deg);
-    -o-transform: rotate(70deg);
-    -ms-transform: rotate(70deg);
-    transform: rotate(70deg);
-}
-
-p#socialicons3 img{ /* 3rd set of icons. Rotate them -360deg onmouseover ONLY. Note where the "transition prop is added */
-}
-
-p#socialicons3 img:hover{
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-    -moz-transform: rotate(-360deg);
-    -webkit-transform: rotate(-360deg);
-    -o-transform: rotate(-360deg);
-    -ms-transform: rotate(-360deg);
-    transform: rotate(-360deg);
-}
-
-
-
-
-.button {
-    width: 90%;
-    display: inline-block;
-    padding: 1em;
-    background-color: darkgray;
-    text-decoration: none;
-    text-align: center;
-    color: black;
-}
-
-
-.button-name{
-    float: right;
-    margin-right: 5%;
-    width: 45%;
-    display: inline-block;
-    padding: .5em;
-    background-color:  #e1e1e1;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-.button-patient{
-    float: right;
-    margin-top: -55px;
-    margin-right: 13%;
-    width: 30%;
-    display: inline-block;
-    padding: .5em;
-    background-color:  #e1e1e1;
-    text-decoration: none;
-    text-align: center;
-
-}
-
-.button-clinician {
-    position: relative;
-    margin-top: 170px;
-    margin-left: 20%;
-    width: 35%;
-    display: inline-block;
-    padding: .5em;
-    background-color:  #e1e1e1;
-    text-decoration: none;
-    text-align: center;
-}
-
-
-.realbenefit{
-    margin-top: 1%;
-    margin-left: 20%;
-    width: 45%;
-    color: white;
-    border-radius: 7px 7px 7px 7px;
-    -moz-border-radius: 7px 7px 7px 7px;
-    -webkit-border-radius: 7px 7px 7px 7px;
-    background-color: #337ab7;
-}
+
+
+
+
+
+
+
+
+
+
+
